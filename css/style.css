@@ -1,0 +1,23 @@
+body {
+    font-size: 14px;
+    line-height: normal;
+    color: black;
+    font-weight: normal;
+    font-family: "PT Sans";
+}
+
+.main-title-reasons {
+    font-size: 21px;
+    line-height: 1.238;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: "PT Sans";
+}
+
+.reasons-block-title {
+    font-size: 21px;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: "PT Sans";     
+}
