@@ -52,7 +52,7 @@ ul {
 .main-logo {
   width: 1200px;
   height: 564px;
-  background-image: url(..img/main-image.jpg);
+  background-image: url(../img/main-image.jpg);
   background-color: rgb(228, 241, 249);
 }
 
@@ -133,12 +133,14 @@ ul {
   color: rgb(0, 0, 0);
   font-weight: bold;
   text-align: center;
+  line-height: 36px;
 }
 
  .search p {
   color: rgb(51, 51, 51);
   font-weight: normal;
   text-align: center;
+  line-height: 24px;
  }
 
  .search-button {
@@ -186,6 +188,7 @@ ul {
 .search-form-text:focus {
   background-color: rgb(255, 255,255);
   border: 2px solid rgb(229, 229, 229);
+  outline: none;
 }
 
 .number-field {
@@ -219,7 +222,7 @@ ul {
   color: rgba(255, 255, 255, 0.302);
 }
 .filters {
-  background-image: url(..img/filter-background.png);
+  background-image: url(../img/filter-background.png);
   background-color: rgb(131, 171, 202);
 }
 
@@ -369,7 +372,16 @@ ul {
 .footer-social {
   font-size: 0px;
 }
+
+.twitter-button {
+	display: block;
+	width: 48px;
+	height: 46px;
+	background-image: url(../img/twitter-icon.svg);
+	background-size: 48px 46px;
+}
  
+
 .academy-logo {
 	fill: rgb(35, 31, 32);
 }
@@ -381,3 +393,6 @@ ul {
 .academy-logo:active {
 	fill: rgb(189, 187, 188);
 }
+
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
